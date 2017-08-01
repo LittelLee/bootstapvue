@@ -81,7 +81,7 @@
 
                    <!--Standard-->
                    <b-card header="Card header Text" class="mb-2" title="Card title"
-                           sub-title="card subtitle">
+                           sub-title="card subtitle" show-footer>
                        <small slot="footer" class="text-muted">
                            Last updated 3 min ago
                        </small>

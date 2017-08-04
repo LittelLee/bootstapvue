@@ -10,7 +10,8 @@
       <!--<NavbarT></NavbarT>-->
     <!--<Pagination></Pagination>-->
     <!--<Popover></Popover>-->
-    <ProgressT></ProgressT>
+    <!--<ProgressT></ProgressT>-->
+    <TableT></TableT>
       <!--<DorpdownT></DorpdownT>-->
       <!--<form-controller></form-controller>-->
       <!--<form-controllerfiedlset></form-controllerfiedlset>-->
@@ -34,6 +35,7 @@
   import Pagination from './components/Pagination.vue';
   import Popover from './components/Popover.vue';
   import Progress from './components/Progress.vue';
+  import TableT from './components/Tabbles.vue';
   import FormController from './components/Form/formcontrollerCheckbox.vue';
   import fieldset from './components/Form/formcontrollerFiedlset.vue';
   import formcontrollerfile  from './components/Form/formcontrollerFile.vue';
@@ -60,6 +62,7 @@
         Pagination:Pagination,
         Popover:Popover,
         ProgressT:Progress,
+        TableT:TableT,
         formController:FormController,
         formControllerfiedlset:fieldset,
         formcontrollerfile:formcontrollerfile,
